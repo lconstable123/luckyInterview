@@ -1,0 +1,12 @@
+# Blender 5.1.2 MTL File: 'luckytest.blend'
+# www.blender.org
+
+newmtl spool
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.175292 0.019253 0.101419
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2

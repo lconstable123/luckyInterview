@@ -1,0 +1,376 @@
+Assets:
+  - Handle: 9018181450483170
+    FilePath: Meshes/Default/Source/Plane.gltf
+    Type: MeshSource
+  - Handle: 103389858199108309
+    FilePath: Meshes/rack_outer.hsmesh
+    Type: StaticMesh
+  - Handle: 140014362224052692
+    FilePath: ContentVault/Robots/Panda/assets/link0_10.obj
+    Type: MeshSource
+  - Handle: 203640795155869036
+    FilePath: ContentVault/Robots/Panda/assets/link0_1.obj
+    Type: MeshSource
+  - Handle: 299693624062074323
+    FilePath: ContentVault/Robots/Panda/assets/link1.obj
+    Type: MeshSource
+  - Handle: 400554284819016600
+    FilePath: Physics/ConvexHulls/11284629143869374335.hchull
+    Type: ConvexHull
+  - Handle: 430961175522171996
+    FilePath: Meshes/server_shelf.hsmesh
+    Type: StaticMesh
+  - Handle: 549216577703798724
+    FilePath: ContentVault/Robots/Panda/assets/link4_2.obj
+    Type: MeshSource
+  - Handle: 581285353877541002
+    FilePath: Meshes/luckytest1.obj
+    Type: MeshSource
+  - Handle: 825110299185241778
+    FilePath: ContentVault/Robots/Panda/assets/link0_8.obj
+    Type: MeshSource
+  - Handle: 964276236545386540
+    FilePath: prefabs/server_inner.hprefab
+    Type: Prefab
+  - Handle: 1613560681267522414
+    FilePath: ContentVault/Robots/Panda/assets/link6_7.obj
+    Type: MeshSource
+  - Handle: 1982246951372483928
+    FilePath: ContentVault/Robots/Panda/assets/link7_6.obj
+    Type: MeshSource
+  - Handle: 2186419214613737111
+    FilePath: Meshes/Default/Source/Cone.gltf
+    Type: MeshSource
+  - Handle: 2307196540460602006
+    FilePath: Physics/ConvexHulls/7411522432725750282.hchull
+    Type: ConvexHull
+  - Handle: 2432512208858431261
+    FilePath: ContentVault/Robots/Panda/assets/link7_1.obj
+    Type: MeshSource
+  - Handle: 2505731088057538876
+    FilePath: ContentVault/Robots/Panda/assets/link6.stl
+    Type: MeshSource
+  - Handle: 2670240788228937446
+    FilePath: ContentVault/Robots/Panda/assets/link2.stl
+    Type: MeshSource
+  - Handle: 2693607491087588542
+    FilePath: ContentVault/Robots/Panda/assets/link0_3.obj
+    Type: MeshSource
+  - Handle: 3283709035482270960
+    FilePath: Physics/ConvexHulls/16922174324796740669.hchull
+    Type: ConvexHull
+  - Handle: 3873294763177915030
+    FilePath: Meshes/shelf.hsmesh
+    Type: StaticMesh
+  - Handle: 4150274971590474573
+    FilePath: Scripts/Client/obj/LuckyInterview.csproj.nuget.dgspec.json
+    Type: Motion
+  - Handle: 4447268444205835452
+    FilePath: Scripts/Intermediates/Debug/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+    Type: ScriptFile
+  - Handle: 4509450959674919312
+    FilePath: ContentVault/Robots/Panda/assets/link7_7.obj
+    Type: MeshSource
+  - Handle: 4527006290270528877
+    FilePath: ContentVault/Robots/Panda/assets/link6_4.obj
+    Type: MeshSource
+  - Handle: 4725133774540787680
+    FilePath: ContentVault/Robots/Panda/MG_Panda.hmograph
+    Type: MotionGraph
+  - Handle: 4788472795194525182
+    FilePath: Materials/Default/GroundMaterial.hmaterial
+    Type: Material
+  - Handle: 4808275646406317643
+    FilePath: Meshes/Default/Source/Cube.gltf
+    Type: MeshSource
+  - Handle: 4874856272220954269
+    FilePath: ContentVault/Robots/Panda/assets/link6_0.obj
+    Type: MeshSource
+  - Handle: 4880778682154215227
+    FilePath: ContentVault/Robots/Panda/assets/link5_1.obj
+    Type: MeshSource
+  - Handle: 5044485421999805835
+    FilePath: ContentVault/Robots/Panda/assets/link2.obj
+    Type: MeshSource
+  - Handle: 5204658033931752849
+    FilePath: ContentVault/Robots/Panda/assets/link7_3.obj
+    Type: MeshSource
+  - Handle: 5323322215850253117
+    FilePath: ContentVault/Robots/Panda/assets/link6_5.obj
+    Type: MeshSource
+  - Handle: 5460423286627266484
+    FilePath: Scripts/Client/obj/project.assets.json
+    Type: Motion
+  - Handle: 5627991048985063838
+    FilePath: ContentVault/Robots/Panda/assets/link3_1.obj
+    Type: MeshSource
+  - Handle: 5691419895871920807
+    FilePath: Scripts/Client/Source/Waypoint.cs
+    Type: ScriptFile
+  - Handle: 5898361390452286108
+    FilePath: Materials/Floor.hmaterial
+    Type: Material
+  - Handle: 6119697340647868805
+    FilePath: Meshes/Source/assets_2/server_inner.obj
+    Type: MeshSource
+  - Handle: 6200691645662130154
+    FilePath: ContentVault/Robots/Panda/assets/link5_collision_2.obj
+    Type: MeshSource
+  - Handle: 6613485661413443235
+    FilePath: ContentVault/Robots/Panda/assets/hand_1.obj
+    Type: MeshSource
+  - Handle: 6633695477103330768
+    FilePath: Meshes/Source/assets_2/server_shelf.obj
+    Type: MeshSource
+  - Handle: 6675991575643014491
+    FilePath: Meshes/Source/assets_2/server_switch.obj
+    Type: MeshSource
+  - Handle: 6706405613067590293
+    FilePath: Textures/old_wooden_floor_02_rough_4k_16bit.png
+    Type: Texture
+  - Handle: 7001479982398137739
+    FilePath: ContentVault/Robots/Panda/assets/link0_9.obj
+    Type: MeshSource
+  - Handle: 7167691767517214674
+    FilePath: Scripts/Client/Source/Panda_Arm_ServerController.cs
+    Type: ScriptFile
+  - Handle: 7411522432725750282
+    FilePath: Meshes/luckytest1.hsmesh
+    Type: StaticMesh
+  - Handle: 7417874562976358071
+    FilePath: ContentVault/Robots/Panda/assets/link0_7.obj
+    Type: MeshSource
+  - Handle: 7960091075655957334
+    FilePath: Meshes/cable_end.hsmesh
+    Type: StaticMesh
+  - Handle: 8178181748617023753
+    FilePath: Meshes/Source/assets_2/rack_outer.obj
+    Type: MeshSource
+  - Handle: 8239658620116576751
+    FilePath: Meshes/Default/Source/Capsule.gltf
+    Type: MeshSource
+  - Handle: 8372568031683852761
+    FilePath: ContentVault/Robots/Panda/assets/hand_0.obj
+    Type: MeshSource
+  - Handle: 8431705401124963501
+    FilePath: ContentVault/Robots/Panda/assets/hand_2.obj
+    Type: MeshSource
+  - Handle: 8432684220004412277
+    FilePath: Scripts/Client/Source/Take_ServerPlugger.cs
+    Type: ScriptFile
+  - Handle: 8485495572048379805
+    FilePath: ContentVault/Robots/Panda/assets/link5_0.obj
+    Type: MeshSource
+  - Handle: 8541522272553333278
+    FilePath: Scripts/Source/VideoRecorder.cs
+    Type: ScriptFile
+  - Handle: 8609155579151113123
+    FilePath: ContentVault/Robots/Panda/assets/link6_15.obj
+    Type: MeshSource
+  - Handle: 8621517802044962279
+    FilePath: ContentVault/Robots/Panda/assets/link6_2.obj
+    Type: MeshSource
+  - Handle: 8672694943361449236
+    FilePath: ContentVault/Robots/Panda/assets/link7_2.obj
+    Type: MeshSource
+  - Handle: 8924571555863697201
+    FilePath: Scenes/Main.hscene
+    Type: Scene
+  - Handle: 9343594478389244527
+    FilePath: Scripts/Binaries/LuckyInterview.runtimeconfig.json
+    Type: Motion
+  - Handle: 9364400412419082412
+    FilePath: Physics/ConvexHulls/12920648689952494010.hchull
+    Type: ConvexHull
+  - Handle: 9494986364529023348
+    FilePath: Textures/old_wooden_floor_02_nor_gl_4k_16bit.png
+    Type: Texture
+  - Handle: 9516916956688153525
+    FilePath: Scripts/Intermediates/Debug/LuckyInterview.AssemblyInfo.cs
+    Type: ScriptFile
+  - Handle: 9724953548516446423
+    FilePath: Meshes/Source/assets_2/cable_end.obj
+    Type: MeshSource
+  - Handle: 10255062688033599775
+    FilePath: Physics/ConvexHulls/3873294763177915030.hchull
+    Type: ConvexHull
+  - Handle: 10280350663610692544
+    FilePath: ContentVault/Robots/Panda/assets/link6_8.obj
+    Type: MeshSource
+  - Handle: 10331262725919346511
+    FilePath: ContentVault/Robots/Panda/assets/finger_0.obj
+    Type: MeshSource
+  - Handle: 10590088830340180444
+    FilePath: ContentVault/Robots/Panda/assets/link6_11.obj
+    Type: MeshSource
+  - Handle: 10695162807790994526
+    FilePath: Textures/old_wooden_floor_02_diff_4k.jpg
+    Type: Texture
+  - Handle: 10786695304645998301
+    FilePath: prefabs/serverrack.hprefab
+    Type: Prefab
+  - Handle: 10836475497200474988
+    FilePath: Scripts/Binaries/LuckyInterview.deps.json
+    Type: Motion
+  - Handle: 11018097099876638256
+    FilePath: ContentVault/Robots/Panda/assets/link0.stl
+    Type: MeshSource
+  - Handle: 11039526347493607039
+    FilePath: ContentVault/Robots/Panda/assets/link4_3.obj
+    Type: MeshSource
+  - Handle: 11146694267174896986
+    FilePath: ContentVault/Robots/Panda/assets/link6_9.obj
+    Type: MeshSource
+  - Handle: 11278457143967080291
+    FilePath: ContentVault/Robots/Panda/assets/link0_0.obj
+    Type: MeshSource
+  - Handle: 11284629143869374335
+    FilePath: Meshes/spool.hsmesh
+    Type: StaticMesh
+  - Handle: 11433675719733522076
+    FilePath: ContentVault/Robots/Panda/panda.xml
+    Type: MujocoScene
+  - Handle: 11648983479332839307
+    FilePath: Meshes/Default/Source/Cylinder.gltf
+    Type: MeshSource
+  - Handle: 11670021430310457446
+    FilePath: ContentVault/Robots/Panda/assets/link4_1.obj
+    Type: MeshSource
+  - Handle: 11777318155838298343
+    FilePath: ContentVault/Robots/Panda/assets/link7_5.obj
+    Type: MeshSource
+  - Handle: 11885119806981889783
+    FilePath: prefabs/server_shelf.hprefab
+    Type: Prefab
+  - Handle: 11930179103112926926
+    FilePath: ContentVault/Robots/Panda/assets/link6_14.obj
+    Type: MeshSource
+  - Handle: 11935971777599063585
+    FilePath: ContentVault/Robots/Panda/assets/link3_3.obj
+    Type: MeshSource
+  - Handle: 12089231904974387313
+    FilePath: ContentVault/Robots/Panda/assets/link3_0.obj
+    Type: MeshSource
+  - Handle: 12567579210415700596
+    FilePath: ContentVault/Robots/Panda/assets/link4_0.obj
+    Type: MeshSource
+  - Handle: 12819053806256323090
+    FilePath: ContentVault/Robots/Panda/assets/link1.stl
+    Type: MeshSource
+  - Handle: 12920648689952494010
+    FilePath: Meshes/server_switch.hsmesh
+    Type: StaticMesh
+  - Handle: 13026213841026830599
+    FilePath: ContentVault/Robots/Panda/assets/link5_collision_0.obj
+    Type: MeshSource
+  - Handle: 13039811279580261471
+    FilePath: ContentVault/Robots/Panda/assets/link0_2.obj
+    Type: MeshSource
+  - Handle: 13285932265462606982
+    FilePath: Textures/brown_photostudio_02_4k (1).hdr
+    Type: EnvMap
+  - Handle: 13469814070733798270
+    FilePath: ContentVault/Robots/Panda/assets/link7.stl
+    Type: MeshSource
+  - Handle: 13636496555891996534
+    FilePath: Meshes/Source/assets_2/shelf.obj
+    Type: MeshSource
+  - Handle: 13649486878089792326
+    FilePath: ContentVault/Robots/Panda/assets/link5_2.obj
+    Type: MeshSource
+  - Handle: 13749188225612295719
+    FilePath: ContentVault/Robots/Panda/assets/link5_collision_1.obj
+    Type: MeshSource
+  - Handle: 13860685921829598791
+    FilePath: ContentVault/Robots/Panda/assets/finger_1.obj
+    Type: MeshSource
+  - Handle: 14263025351987719837
+    FilePath: Meshes/Source/assets_2/spool.obj
+    Type: MeshSource
+  - Handle: 14353887003872524492
+    FilePath: Meshes/Default/Source/Octahedron.glb
+    Type: MeshSource
+  - Handle: 14689819939707124112
+    FilePath: Meshes/Source/assets_2/floor.obj
+    Type: MeshSource
+  - Handle: 14801792562659841931
+    FilePath: Scripts/Source/LuckyHubEpisodeManager.cs
+    Type: ScriptFile
+  - Handle: 14906607153049788274
+    FilePath: ContentVault/Robots/Panda/assets/hand_3.obj
+    Type: MeshSource
+  - Handle: 15003253364872697920
+    FilePath: ContentVault/Robots/Panda/assets/link6_10.obj
+    Type: MeshSource
+  - Handle: 15072185174726085130
+    FilePath: Meshes/Default/Source/Torus.gltf
+    Type: MeshSource
+  - Handle: 15185512109967344283
+    FilePath: ContentVault/Robots/Panda/panda.png
+    Type: Texture
+  - Handle: 15298312951800293258
+    FilePath: prefabs/rack_outer.hprefab
+    Type: Prefab
+  - Handle: 15326874424221757166
+    FilePath: ContentVault/Robots/Panda/assets/link3_2.obj
+    Type: MeshSource
+  - Handle: 15422004289962277652
+    FilePath: ContentVault/Robots/Panda/assets/link0_4.obj
+    Type: MeshSource
+  - Handle: 15490575241094037541
+    FilePath: Meshes/Default/Cube.hsmesh
+    Type: StaticMesh
+  - Handle: 15685294173191242290
+    FilePath: Meshes/Default/Source/Sphere.gltf
+    Type: MeshSource
+  - Handle: 15703204833334617890
+    FilePath: ContentVault/Robots/Panda/assets/link6_13.obj
+    Type: MeshSource
+  - Handle: 15710296645335003225
+    FilePath: ContentVault/Robots/Panda/assets/link7_0.obj
+    Type: MeshSource
+  - Handle: 16179597996830339636
+    FilePath: Meshes/server_inner.hsmesh
+    Type: StaticMesh
+  - Handle: 16201736899346892490
+    FilePath: ContentVault/Robots/Panda/assets/link6_16.obj
+    Type: MeshSource
+  - Handle: 16399459960837747665
+    FilePath: ContentVault/Robots/Panda/assets/link7_4.obj
+    Type: MeshSource
+  - Handle: 16690156918970732319
+    FilePath: ContentVault/Robots/Panda/assets/hand.stl
+    Type: MeshSource
+  - Handle: 16922174324796740669
+    FilePath: Meshes/floor.hsmesh
+    Type: StaticMesh
+  - Handle: 16987524465770461714
+    FilePath: ContentVault/Robots/Panda/assets/link0_5.obj
+    Type: MeshSource
+  - Handle: 17409702480262058760
+    FilePath: ContentVault/Robots/Panda/assets/link0_11.obj
+    Type: MeshSource
+  - Handle: 17453557412838741233
+    FilePath: ContentVault/Robots/Panda/assets/link6_12.obj
+    Type: MeshSource
+  - Handle: 17574337430404743680
+    FilePath: ContentVault/Robots/Panda/assets/hand_4.obj
+    Type: MeshSource
+  - Handle: 17586343750698565524
+    FilePath: Scripts/Client/Source/PandaController.cs
+    Type: ScriptFile
+  - Handle: 17660553173488848336
+    FilePath: ContentVault/Robots/Panda/assets/link6_1.obj
+    Type: MeshSource
+  - Handle: 17905328873603963956
+    FilePath: ContentVault/Robots/Panda/assets/link4.stl
+    Type: MeshSource
+  - Handle: 17953472285171601173
+    FilePath: ContentVault/Robots/Panda/assets/link6_6.obj
+    Type: MeshSource
+  - Handle: 17965693414397486000
+    FilePath: ContentVault/Robots/Panda/assets/link6_3.obj
+    Type: MeshSource
+  - Handle: 18397616664209780890
+    FilePath: ContentVault/Robots/Panda/assets/link3.stl
+    Type: MeshSource

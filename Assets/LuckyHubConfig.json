@@ -1,0 +1,117 @@
+{
+  "environment": {
+    "name": "DualPandaCablePlugging",
+    "description": "Dual Panda robot arms performing cable insertion task",
+    "version": "1.0.0",
+    "scene_file": "Scenes/Main.hscene"
+  },
+  "task": {
+    "type": "manipulation",
+    "objective": "Insert cable into port using dual robot arms",
+    "success_criteria": {
+      "distance_threshold": 0.05,
+      "timeout_seconds": 120
+    }
+  },
+  "observation_space": {
+    "cable_position": {
+      "type": "continuous",
+      "shape": [3],
+      "description": "Cable position in world coordinates"
+    },
+    "cable_rotation": {
+      "type": "continuous", 
+      "shape": [3],
+      "description": "Cable rotation (Euler angles)"
+    },
+    "target_position": {
+      "type": "continuous",
+      "shape": [3], 
+      "description": "Target port position"
+    },
+    "distance_to_target": {
+      "type": "continuous",
+      "shape": [1],
+      "description": "Distance between cable and target"
+    },
+    "episode_time": {
+      "type": "continuous",
+      "shape": [1],
+      "description": "Elapsed time in current episode"
+    },
+    "cameras": {
+      "overview": {
+        "entity_id": "2521815566182810637",
+        "resolution": [640, 480],
+        "fov": 45
+      },
+      "task_view": {
+        "entity_id": "9306750892116985147", 
+        "resolution": [640, 480],
+        "fov": 45
+      }
+    }
+  },
+  "action_space": {
+    "description": "High-level task commands - the existing Take_ServerPlugger handles low-level robot control",
+    "start_episode": {
+      "type": "discrete",
+      "description": "Trigger episode start"
+    },
+    "reset_scene": {
+      "type": "discrete", 
+      "description": "Reset to initial state"
+    }
+  },
+  "reward_structure": {
+    "success_reward": 100.0,
+    "timeout_penalty": -10.0,
+    "progress_reward_scale": 1.0,
+    "step_penalty": -0.01
+  },
+  "episode_manager": {
+    "script_class": "LuckyInterview.LuckyHubEpisodeManager",
+    "entity_id": "13726644970252216620",
+    "auto_reset": true,
+    "max_episodes": 1000
+  },
+  "robots": {
+    "panda_left": {
+      "entity_id": "9206123936416490246",
+      "controller_script": "LuckyInterview.Panda_Arm_ServerController"
+    },
+    "panda_right": {
+      "entity_id": "4075392317893734483", 
+      "controller_script": "LuckyInterview.Panda_Arm_ServerController"
+    }
+  },
+  "objects": {
+    "cable": {
+      "entity_id": "3304072980711966993",
+      "type": "manipulable"
+    },
+    "target_port": {
+      "entity_id": "5734724106421310265",
+      "type": "static"
+    }
+  },
+  "training_parameters": {
+    "algorithm": "PPO",
+    "learning_rate": 3e-4,
+    "batch_size": 64,
+    "n_steps": 2048,
+    "n_epochs": 10,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_range": 0.2,
+    "ent_coef": 0.01,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5
+  },
+  "logging": {
+    "log_level": "INFO",
+    "episode_data_format": "json",
+    "save_frequency": 100,
+    "checkpoint_frequency": 1000
+  }
+}

@@ -1,0 +1,13 @@
+# Blender 5.1.2 MTL File: 'luckytest.blend'
+# www.blender.org
+
+newmtl floor
+Ka 0.127273 0.127273 0.127273
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd G:/luckyrobots/assets/old_wooden_floor_02_4k.blend/textures/old_wooden_floor_02_diff_4k.jpg
+map_Ns G:/luckyrobots/assets/old_wooden_floor_02_4k.blend/textures/foor_r_d.png
+map_Bump -bm 2.700000 G:/luckyrobots/assets/old_wooden_floor_02_4k.blend/textures/old_wooden_floor_02_nor_gl_4k_16bit.png

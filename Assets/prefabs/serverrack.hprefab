@@ -1,0 +1,363 @@
+Prefab:
+  - Entity: 7111937480895884660
+    Domain: Client
+    TagComponent:
+      Tag: server_inner
+    Parent: 6673487417946630460
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 7111937480895884660
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 0
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [0.99202323, 0.99202323, 0.99202323]
+    StaticMeshComponent:
+      AssetID: 16179597996830339636
+      MaterialTable:
+        0: 0
+        1: 0
+      Visible: true
+    MujocoMeshColliderComponent:
+      StaticMesh: 16179597996830339636
+      ConvexHullAsset: 0
+      Density: 500
+      Friction: [1, 0.100000001, 0.00999999978]
+      Contype: 1
+      Conaffinity: 1
+      Condim: -1
+    PhysicsDecompositionComponent:
+      ConvexBackendOverride: false
+      ConvexBackend: VHACD
+      ConvexThreshold: 0.0500000007
+      ConvexMaxHulls: -1
+      ConvexMaxVerticesPerHull: 256
+      ConvexVoxelResolution: 400000
+      ConvexPadding: 0.00100000005
+      ConvexMinOccupancy: 9.99999975e-05
+      ConvexAutoSubdivisions: 1
+      ConvexDetailRegions:
+        []
+  - Entity: 2523202541992490434
+    Domain: Client
+    TagComponent:
+      Tag: server_shelf
+    Parent: 6673487417946630460
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 2523202541992490434
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 0
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, 0.199674696, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1.00739634, 1.00739634, 1.00739634]
+    StaticMeshComponent:
+      AssetID: 430961175522171996
+      MaterialTable:
+        0: 0
+        1: 0
+      Visible: true
+    MujocoMeshColliderComponent:
+      StaticMesh: 430961175522171996
+      ConvexHullAsset: 0
+      Density: 500
+      Friction: [1, 0.100000001, 0.00999999978]
+      Contype: 1
+      Conaffinity: 1
+      Condim: -1
+    PhysicsDecompositionComponent:
+      ConvexBackendOverride: false
+      ConvexBackend: VHACD
+      ConvexThreshold: 0.0500000007
+      ConvexMaxHulls: -1
+      ConvexMaxVerticesPerHull: 256
+      ConvexVoxelResolution: 400000
+      ConvexPadding: 0.00100000005
+      ConvexMinOccupancy: 9.99999975e-05
+      ConvexAutoSubdivisions: 1
+      ConvexDetailRegions:
+        []
+  - Entity: 2895699883611580485
+    Domain: Client
+    TagComponent:
+      Tag: server_switch
+    Parent: 6673487417946630460
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 2895699883611580485
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 0
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1.01920021, 1.01920021, 1.01920021]
+    StaticMeshComponent:
+      AssetID: 12920648689952494010
+      MaterialTable:
+        0: 0
+        1: 0
+        2: 0
+      Visible: true
+    MujocoMeshColliderComponent:
+      StaticMesh: 12920648689952494010
+      ConvexHullAsset: 0
+      Density: 500
+      Friction: [1, 0.100000001, 0.00999999978]
+      Contype: 1
+      Conaffinity: 1
+      Condim: -1
+    PhysicsDecompositionComponent:
+      ConvexBackendOverride: false
+      ConvexBackend: VHACD
+      ConvexThreshold: 0.0500000007
+      ConvexMaxHulls: -1
+      ConvexMaxVerticesPerHull: 256
+      ConvexVoxelResolution: 400000
+      ConvexPadding: 0.00100000005
+      ConvexMinOccupancy: 9.99999975e-05
+      ConvexAutoSubdivisions: 1
+      ConvexDetailRegions:
+        []
+  - Entity: 7382758954870711480
+    Domain: Client
+    TagComponent:
+      Tag: server_switch
+    Parent: 6673487417946630460
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 7382758954870711480
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 0
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, 0.207708001, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      AssetID: 12920648689952494010
+      MaterialTable:
+        0: 0
+        1: 0
+        2: 0
+      Visible: true
+    MujocoMeshColliderComponent:
+      StaticMesh: 12920648689952494010
+      ConvexHullAsset: 0
+      Density: 500
+      Friction: [1, 0.100000001, 0.00999999978]
+      Contype: 1
+      Conaffinity: 1
+      Condim: -1
+    PhysicsDecompositionComponent:
+      ConvexBackendOverride: false
+      ConvexBackend: VHACD
+      ConvexThreshold: 0.0500000007
+      ConvexMaxHulls: -1
+      ConvexMaxVerticesPerHull: 256
+      ConvexVoxelResolution: 400000
+      ConvexPadding: 0.00100000005
+      ConvexMinOccupancy: 9.99999975e-05
+      ConvexAutoSubdivisions: 1
+      ConvexDetailRegions:
+        []
+  - Entity: 16149972053322126617
+    Domain: Client
+    TagComponent:
+      Tag: server_shelf
+    Parent: 6673487417946630460
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 16149972053322126617
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 0
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, -0.00602400303, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1.01903653, 1.01903653, 1.01903653]
+    StaticMeshComponent:
+      AssetID: 430961175522171996
+      MaterialTable:
+        0: 0
+        1: 0
+      Visible: true
+    MujocoMeshColliderComponent:
+      StaticMesh: 430961175522171996
+      ConvexHullAsset: 0
+      Density: 500
+      Friction: [1, 0.100000001, 0.00999999978]
+      Contype: 1
+      Conaffinity: 1
+      Condim: -1
+    PhysicsDecompositionComponent:
+      ConvexBackendOverride: false
+      ConvexBackend: VHACD
+      ConvexThreshold: 0.0500000007
+      ConvexMaxHulls: -1
+      ConvexMaxVerticesPerHull: 256
+      ConvexVoxelResolution: 400000
+      ConvexPadding: 0.00100000005
+      ConvexMinOccupancy: 9.99999975e-05
+      ConvexAutoSubdivisions: 1
+      ConvexDetailRegions:
+        []
+  - Entity: 2786242146639478947
+    Domain: Client
+    TagComponent:
+      Tag: server_switch
+    Parent: 6673487417946630460
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 2786242146639478947
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 0
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, 0.39218387, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      AssetID: 12920648689952494010
+      MaterialTable:
+        0: 0
+        1: 0
+        2: 0
+      Visible: true
+    MujocoMeshColliderComponent:
+      StaticMesh: 12920648689952494010
+      ConvexHullAsset: 0
+      Density: 500
+      Friction: [1, 0.100000001, 0.00999999978]
+      Contype: 1
+      Conaffinity: 1
+      Condim: -1
+    PhysicsDecompositionComponent:
+      ConvexBackendOverride: false
+      ConvexBackend: VHACD
+      ConvexThreshold: 0.0500000007
+      ConvexMaxHulls: -1
+      ConvexMaxVerticesPerHull: 256
+      ConvexVoxelResolution: 400000
+      ConvexPadding: 0.00100000005
+      ConvexMinOccupancy: 9.99999975e-05
+      ConvexAutoSubdivisions: 1
+      ConvexDetailRegions:
+        []
+  - Entity: 13781647190858419997
+    Domain: Client
+    TagComponent:
+      Tag: server_shelf
+    Parent: 6673487417946630460
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 13781647190858419997
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 0
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, 0.384136796, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1.01050174, 1.01050174, 1.01050174]
+    StaticMeshComponent:
+      AssetID: 430961175522171996
+      MaterialTable:
+        0: 0
+        1: 0
+      Visible: true
+    MujocoMeshColliderComponent:
+      StaticMesh: 430961175522171996
+      ConvexHullAsset: 0
+      Density: 500
+      Friction: [1, 0.100000001, 0.00999999978]
+      Contype: 1
+      Conaffinity: 1
+      Condim: -1
+    PhysicsDecompositionComponent:
+      ConvexBackendOverride: false
+      ConvexBackend: VHACD
+      ConvexThreshold: 0.0500000007
+      ConvexMaxHulls: -1
+      ConvexMaxVerticesPerHull: 256
+      ConvexVoxelResolution: 400000
+      ConvexPadding: 0.00100000005
+      ConvexMinOccupancy: 9.99999975e-05
+      ConvexAutoSubdivisions: 1
+      ConvexDetailRegions:
+        []
+  - Entity: 6673487417946630460
+    Domain: Client
+    TagComponent:
+      Tag: serverrack
+    Parent: 5285290396293031504
+    Children:
+      - Handle: 13781647190858419997
+      - Handle: 2786242146639478947
+      - Handle: 16149972053322126617
+      - Handle: 7382758954870711480
+      - Handle: 2895699883611580485
+      - Handle: 2523202541992490434
+      - Handle: 7111937480895884660
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 6673487417946630460
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 0
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 5285290396293031504
+    Domain: Client
+    TagComponent:
+      Tag: Prefab_Root
+    Parent: 0
+    Children:
+      - Handle: 6673487417946630460
+    PrefabComponent:
+      Prefab: 2721413477659895582
+      SourceEntity: 5285290396293031504
+      NestedPrefabEntityID: 0
+      Entity: 0
+      Flags: 3
+      OverriddenComponentHashes:
+        []
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
