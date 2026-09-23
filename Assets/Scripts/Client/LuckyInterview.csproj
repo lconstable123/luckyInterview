@@ -1,91 +1,55 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    This file is generated automatically by LuckyEngine.
+    Do not edit it by hand: your changes will be overwritten the next time the
+    project is opened or its scripts are rebuilt.
+
+    To add a script, create a .cs file anywhere under the Assets folder. It is
+    picked up automatically, so this file never needs to be edited or regenerated
+    by hand.
+  -->
+
   <PropertyGroup>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFramework>net9.0</TargetFramework>
     <Configurations>Debug;Release;Dist</Configurations>
+    <AssemblyName>LuckyInterview</AssemblyName>
+    <RootNamespace>LuckyInterview</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Nullable>enable</Nullable>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RollForward>Major</RollForward>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <OutputPath>../Binaries</OutputPath>
+    <BaseIntermediateOutputPath>../Intermediates/</BaseIntermediateOutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>portable</DebugType>
-    <DebugSymbols>true</DebugSymbols>
-    <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\</OutputPath>
-    <IntermediateOutputPath>..\Intermediates\Debug\</IntermediateOutputPath>
-    <DefineConstants></DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <EnableDynamicLoading>true</EnableDynamicLoading>
-    <Nullable>enable</Nullable>
-    <RollForward>Major</RollForward>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>portable</DebugType>
-    <DebugSymbols>true</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>..\Binaries\</OutputPath>
-    <IntermediateOutputPath>..\Intermediates\Release\</IntermediateOutputPath>
-    <DefineConstants></DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <EnableDynamicLoading>true</EnableDynamicLoading>
-    <Nullable>enable</Nullable>
-    <RollForward>Major</RollForward>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Dist|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>none</DebugType>
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>..\Binaries\</OutputPath>
-    <IntermediateOutputPath>..\Intermediates\Dist\</IntermediateOutputPath>
-    <DefineConstants></DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <EnableDynamicLoading>true</EnableDynamicLoading>
-    <Nullable>enable</Nullable>
-    <RollForward>Major</RollForward>
-  </PropertyGroup>
-  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <Reference Include="Hazel-ScriptCore">
-      <HintPath>C:\Users\luke\Downloads\LuckyEngine-2026.1.2-Windows-x64\LuckyEngine-2026.1-Windows-x64\Data\Resources\Scripts\Hazel-ScriptCore.dll</HintPath>
-    </Reference>
-    <Reference Include="Coral.Managed">
-      <HintPath>C:\Users\luke\Downloads\LuckyEngine-2026.1.2-Windows-x64\LuckyEngine-2026.1-Windows-x64\Data\Resources\Scripts\Coral.Managed.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <Reference Include="Hazel-ScriptCore">
-      <HintPath>C:\Users\luke\Downloads\LuckyEngine-2026.1.2-Windows-x64\LuckyEngine-2026.1-Windows-x64\Data\Resources\Scripts\Hazel-ScriptCore.dll</HintPath>
-    </Reference>
-    <Reference Include="Coral.Managed">
-      <HintPath>C:\Users\luke\Downloads\LuckyEngine-2026.1.2-Windows-x64\LuckyEngine-2026.1-Windows-x64\Data\Resources\Scripts\Coral.Managed.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Dist|AnyCPU' ">
-    <Reference Include="Hazel-ScriptCore">
-      <HintPath>C:\Users\luke\Downloads\LuckyEngine-2026.1.2-Windows-x64\LuckyEngine-2026.1-Windows-x64\Data\Resources\Scripts\Hazel-ScriptCore.dll</HintPath>
-    </Reference>
-    <Reference Include="Coral.Managed">
-      <HintPath>C:\Users\luke\Downloads\LuckyEngine-2026.1.2-Windows-x64\LuckyEngine-2026.1-Windows-x64\Data\Resources\Scripts\Coral.Managed.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+
+  <!-- Every .cs file under Assets is compiled. Build output and folders ending in '~' are ignored. -->
   <ItemGroup>
-    <Compile Include="..\Source\LuckyHubEpisodeManager.cs">
-      <Link>Source\LuckyHubEpisodeManager.cs</Link>
+    <Compile Include="../../**/*.cs"
+             Exclude="../../Scripts/Binaries/**;../../Scripts/Intermediates/**;../../**/*~/**">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
     </Compile>
-    <Compile Include="Source\EpisodeManager.cs" />
-    <Compile Include="Source\PandaController.cs" />
-    <Compile Include="Source\Panda_Arm_ServerController.cs" />
-    <Compile Include="Source\Take_ServerPlugger.cs" />
-    <Compile Include="Source\Waypoint.cs" />
   </ItemGroup>
+
+  <!--
+    Engine API assemblies. The editor passes its own install location when it
+    builds, so the project always resolves against the engine that opened it.
+    The path below is a fallback for builds started outside the editor.
+  -->
+  <PropertyGroup>
+    <LuckyEngineScripts Condition="'$(LuckyEngineDir)' != ''">$(LuckyEngineDir)/Resources/Scripts</LuckyEngineScripts>
+    <LuckyEngineScripts Condition="'$(LuckyEngineScripts)' == ''">C:/Users/luke/Downloads/LuckyEngine-2026.2-Preview-1-Windows-x64/LuckyEngine-2026.2-Preview-1-Windows-x64/Data/Resources/Scripts</LuckyEngineScripts>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Hazel-ScriptCore">
+      <HintPath>$(LuckyEngineScripts)/Hazel-ScriptCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Coral.Managed">
+      <HintPath>$(LuckyEngineScripts)/Coral.Managed.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

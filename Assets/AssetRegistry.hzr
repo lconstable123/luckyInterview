@@ -161,9 +161,6 @@ Assets:
   - Handle: 8485495572048379805
     FilePath: ContentVault/Robots/Panda/assets/link5_0.obj
     Type: MeshSource
-  - Handle: 8541522272553333278
-    FilePath: Scripts/Source/VideoRecorder.cs
-    Type: ScriptFile
   - Handle: 8609155579151113123
     FilePath: ContentVault/Robots/Panda/assets/link6_15.obj
     Type: MeshSource
@@ -296,6 +293,9 @@ Assets:
   - Handle: 14801792562659841931
     FilePath: Scripts/Source/LuckyHubEpisodeManager.cs
     Type: ScriptFile
+  - Handle: 14893586109736385588
+    FilePath: LuckyHubConfig.json
+    Type: Motion
   - Handle: 14906607153049788274
     FilePath: ContentVault/Robots/Panda/assets/hand_3.obj
     Type: MeshSource
@@ -347,6 +347,9 @@ Assets:
   - Handle: 16987524465770461714
     FilePath: ContentVault/Robots/Panda/assets/link0_5.obj
     Type: MeshSource
+  - Handle: 17380570747285821215
+    FilePath: Scripts/Client/Source/EpisodeManager.cs
+    Type: ScriptFile
   - Handle: 17409702480262058760
     FilePath: ContentVault/Robots/Panda/assets/link0_11.obj
     Type: MeshSource
