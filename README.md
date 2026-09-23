@@ -1,6 +1,6 @@
 # Lucky Robots Test Scene
 
-A LuckyEngine test scene, i'm leanring the ropes.
+A LuckyEngine test scene, i'm learning the ropes.
 
 ## Task
 
@@ -10,7 +10,9 @@ A LuckyEngine test scene, i'm leanring the ropes.
 
 ## Key scripts
 
-- [`Take_ServerPlugger.cs`](Assets/Scripts/Client/Source/Take_ServerPlugger.cs) - **Written with limited use of AI.** source of truth for arm state control and task flow. Dispatches queued motion steps to each arm via `Panda_Arm_ServerController`.
+- [`Take_ServerPlugger.cs`](Assets/Scripts/Client/Source/Take_ServerPlugger.cs) - **Written with limited use of AI.**
+
+Source of truth for arm state control and task flow. Dispatches queued motion steps to each arm via `Panda_Arm_ServerController`.
 
 - [`Panda_Arm_ServerController.cs`](Assets/Scripts/Client/Source/Panda_Arm_ServerController.cs) - per-arm controller, derived from the shared [`PandaController.cs`](Assets/Scripts/Client/Source/PandaController.cs).
 
